@@ -6,6 +6,7 @@ layout: home
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var language = navigator.language || navigator.userLanguage;
-        document.body.innerHTML += '<p>Your browser language is: ' + language + '</p>';
+        var mainElement = document.querySelector('.main-content main');
+        mainElement.innerHTML = '<p>Your browser language is: ' + language + '</p>';
     });
 </script>
