@@ -7,6 +7,8 @@ layout: home
     document.addEventListener('DOMContentLoaded', function() {
         var language = navigator.language || navigator.userLanguage;
         var mainElement = document.querySelector('.main-content main');
-        mainElement.innerHTML = '<p>Your browser language is: ' + language + '</p>';
+        mainElement.innerHTML = '<h3>Translate the website:</h3><a href="https://redkuni-github-io.translate.goog/Kunis-TWDS-Guides/?_x_tr_sl=en&_x_tr_tl=' + language + '">Google Translate to ' + language + '</a>';
     });
 </script>
+
+## Welcome to TWD:S Guides
