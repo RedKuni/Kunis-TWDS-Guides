@@ -4,15 +4,16 @@ layout: home
 ---
 
 <div>
-<h3>Translate the website:</h3>
-<div class="google-translate-link">
+    <h3>Translate the website:</h3>
+    <div class="google-translate-link">
 </div>
+
 <div>
-<h2>Welcome to TWD:S Guides<h2>
-<p>These Tips and Guides are aimed at being easy on new players and for leaders to use it to help their people.</p>
-<br />
-<h3>New Players</h3>
-<p>If you are a New Player, please, read the tips in "New Players' Must Know" page</p>
+    <h2>Welcome to TWD:S Guides</h2>
+    <p>These Tips and Guides are aimed at being easy on new players and for leaders to use it to help their people.</p>
+    <br />
+    <h3>New Players</h3>
+    <p>If you are a New Player, please, read first the "New Players' Must Know" page</p>
 </div>
 
 <script>
