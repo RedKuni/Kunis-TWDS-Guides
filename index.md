@@ -1,6 +1,8 @@
 ---
 title: Home
 layout: home
+nav_order: 1
+permalink: /
 ---
 
 <div>
@@ -12,6 +14,7 @@ layout: home
     <h2>Welcome to TWD:S Guides</h2>
     <p>These Tips and Guides are aimed at being easy on new players and for leaders to use it to help their people.</p>
     <br />
+    <p>Please, be aware that some name of the game's feature may change and the <b>Google Translate may not translate it to the actual name of it in your language</b></p>
     <h3>New Players</h3>
     <p>If you are a New Player, please, read first the "New Players' Must Know" page</p>
 </div>
