@@ -9,26 +9,30 @@ nav_order: 2
     background-color: #AAA;
   }
 
-  dd {
+  .sumup {
     background-color: #777;
   }
 
-  dd .details {
-    background-color: #0AF;
+  .details {
+    background-color: #DDD;
   }
 </style>
 
 <h2>New Players' Must Know</h2>
 <p>Key points:</p>
-<dl>
+<dl class="rounded">
   <dt>Team Play</dt>
-  <dd>
+  <dd class="sumup rounded">
     Join a clan right away. Don't fear changing it later for a more active or more fitting for you.<br>
-    <a data-bs-toggle="collapse" href="#team-player" role="button" aria-expanded="false" aria-controls="team-player">
-      Why?
+    <figure class="figure">
+      <img src="assets/clan-button.jpeg" class="figure-img img-fluid rounded" alt="Clan button is located at the bottom-right corner of your screen">
+      <figcaption class="figure-caption">To access the Clan's screen, use the button at the bottom-right corner of your screen.</figcaption>
+    </figure>
+    <a data-bs-toggle="collapse" href="#team-play" role="button" aria-expanded="false" aria-controls="team-play">
+      More details
     </a>
   </dd>
-  <dd class="details collapse" id="team-player">
+  <dd class="details collapse rounded" id="team-play">
     It is possible to go solo and play like an idle farming game. However, being solo in a PVP-enabled game will only
     invite
     the other players to use you to farm points and hinder your growth.<br>
@@ -37,7 +41,19 @@ nav_order: 2
     ups help, town reinforcements, resource donations, rally attacks and much more.
   </dd>
   <dt>Communication</dt>
-  <dd>
+  <dd class="sumup rounded">
+    The game is all about Communication. At least, pay attention to the Clan Event page, pinned messages in the Chan
+    Chat and maybe Personal Messages from your leaders.<br>
+    <figure class="figure">
+      <img src="assets/clan-event-screen.jpeg" class="figure-img img-fluid rounded" alt="In the overview Clan screen, there is an 'Event' tab.">
+      <figcaption class="figure-caption">In the Event tab, there will be listed most of the clan's events.</figcaption>
+    </figure>
+    <a data-bs-toggle="collapse" href="#communication" role="button" aria-expanded="false"
+      aria-controls="communication">
+      More details
+    </a>
+  </dd>
+  <dd class="details collapse rounded" id="communication">
     Being part of a clan, communidation is the key to a safe and fast growth.<br>
     Communication here doesn't necessarily mean to actively talk to other people, however it is highly encouraged to do
     so.
@@ -46,21 +62,18 @@ nav_order: 2
     replaying to private messages.
   </dd>
   <dt>Being Active</dt>
-  <dd>To be Active means that you log in at least once every two day. Though, it is recommended to play it at least
-    twice a day.</dd>
+  <dd class="sumup rounded">Play it once or twice a day.<br>
+    <a data-bs-toggle="collapse" href="#being-active" role="button" aria-expanded="false" aria-controls="being-active">
+      More details
+    </a>
+  </dd>
+  <dd class="details collapse rounded" id="being-active">
+    To be Active means that you log in at least once every two day. Though, to grow in a reasonable pace, it is
+    recommended to play it at least twice a day. But, the more the better.<br>
+    Also, many clans won't keep inactive players and will kick them out, making them unable to have access to many
+    rewards and benefits that a clan can provide them.
+  </dd>
 </dl>
-
-<div class="container mt-3">
-  <h2>Simple Collapsible</h2>
-  <p>Click on the button to toggle between showing and hiding content.</p>
-  <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple
-    collapsible</button>
-  <div id="demo" class="collapse">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </div>
-</div>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
