@@ -39,11 +39,15 @@ nav_order: 2
       </div>
     </div>
     <div class="card-footer">
-      <figure class="figure">
-        <img src="assets/clan-button.jpeg" class="figure-img w-50"
+      <figure class="figure row">
+        <img src="assets/clan-button.jpeg" class="figure-img col"
           alt="Clan button is located at the bottom-right corner of your screen">
-        <figcaption class="figure-caption">
-          To access the Clan's screen, use the button at the bottom-right corner of your screen.
+        <figcaption class="figure-caption col">
+          <ul class="list-group">
+            <li class="list-group-item">
+              Access the Clan Screen by using the button at the bottom-right corner.
+            </li>
+          </ul>
         </figcaption>
       </figure>
     </div>
@@ -76,11 +80,26 @@ nav_order: 2
       </div>
     </div>
     <div class="card-footer">
-      <figure class="figure">
-        <img src="assets/clan-event-screen.jpeg" class="figure-img w-50"
+      <figure class="figure row">
+        <img src="assets/clan-event-screen.jpeg" class="figure-img col"
           alt="In the overview Clan screen, there is an 'Event' tab.">
-        <figcaption class="figure-caption">
-          In the Event tab, there will be listed most of the clan's events.
+        <figcaption class="figure-caption col">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <span style="color: red;">Red Circle</span>:<br>
+              In the Clan Info page, you can find the "Events" tab. Here, all the scheduled events will be listed.<br>
+              Note: not all events can be scheduled ahead of time. So, pay attention to the Clan Chat pinned messages.
+            </li>
+            <li class="list-group-item">
+              <span style="color: #0D0;">Green Line</span>:<br>
+              At the bottom-left of the Event Card you can see the date and time of the event, as well as how long until it starts.
+              Note: Pay attention to the "UTC" or "Local" before the event's date.
+            </li>
+            <li class="list-group-item">
+              <span style="color: blue;">Blue Arrow</span>:<br>
+              You can change between UTC and Local time at the Gear icon at the bottom-left of the Clan Info's page.
+            </li>
+          </ul>
         </figcaption>
       </figure>
     </div>
@@ -110,6 +129,47 @@ nav_order: 2
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">Clan Technology Donations</div>
+    <div class="card-body">
+      <p class="card-text sumup">
+        Donate to the Clan's Technology whenever you log in.
+      </p>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <button class="accordion-button collapsed p-2" type="button" data-bs-toggle="collapse"
+              data-bs-target="#communidation" aria-expanded="false" aria-controls="communidation">
+              More details
+            </button>
+          </div>
+          <div class="accordion-collapse details collapse" id="communidation">
+            <div class="accordion-body">
+              Clan Technologies benefits all the its members, you included. The donations is nothing 
+              special, just some veggies or lumbers. You can donate using rubies, but it's not necessary. 
+              Just donate to wherever is marked with a stared thumbs up. When the technology node reaches 
+              the required resource amount, an Rank 4 (R4) from you clan can start the research and mark 
+              another technology node.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-footer">
+      <figure class="figure row">
+        <img src="assets/clan-research-screen.jpeg" class="figure-img col"
+          alt="In the overview Clan screen, there is an 'Event' tab.">
+        <figcaption class="figure-caption col">
+          <ul class="list-group">
+            <li class="list-group-item">
+              The Clan Technology can be found in the second tab (a flask icon) of the Clan's page.
+            </li>
+          </ul>
+        </figcaption>
+      </figure>
     </div>
   </div>
 </div>
