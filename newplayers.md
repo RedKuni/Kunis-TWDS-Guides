@@ -8,10 +8,6 @@ nav_order: 2
   .card-title {
     margin-top: 0;
   }
-
-  .figure-img {
-    max-width: 150px;
-  }
 </style>
 
 <h2>New Players' Must Know</h2>
@@ -44,7 +40,7 @@ nav_order: 2
     </div>
     <div class="card-footer">
       <figure class="figure">
-        <img src="assets/clan-button.jpeg" class="figure-img img-fluid"
+        <img src="assets/clan-button.jpeg" class="figure-img"
           alt="Clan button is located at the bottom-right corner of your screen">
         <figcaption class="figure-caption">
           To access the Clan's screen, use the button at the bottom-right corner of your screen.
@@ -81,7 +77,7 @@ nav_order: 2
     </div>
     <div class="card-footer">
       <figure class="figure">
-        <img src="assets/clan-event-screen.jpeg" class="figure-img img-fluid"
+        <img src="assets/clan-event-screen.jpeg" class="figure-img"
           alt="In the overview Clan screen, there is an 'Event' tab.">
         <figcaption class="figure-caption">
           In the Event tab, there will be listed most of the clan's events.
