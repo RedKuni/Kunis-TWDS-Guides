@@ -26,7 +26,7 @@ nav_order: 2
       <div class="accordion">
         <div class="accordion-item">
           <div class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <button class="accordion-button collapsed p-2" type="button" data-bs-toggle="collapse"
               data-bs-target="#team-play" aria-expanded="false" aria-controls="team-play">
               More details
             </button>
@@ -62,7 +62,7 @@ nav_order: 2
       <div class="accordion">
         <div class="accordion-item">
           <div class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <button class="accordion-button collapsed p-2" type="button" data-bs-toggle="collapse"
               data-bs-target="#communidation" aria-expanded="false" aria-controls="communidation">
               More details
             </button>
@@ -98,7 +98,7 @@ nav_order: 2
       <div class="accordion">
         <div class="accordion-item">
           <div class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            <button class="accordion-button collapsed p-2" type="button" data-bs-toggle="collapse"
               data-bs-target="#being-active" aria-expanded="false" aria-controls="being-active">
               More details
             </button>
