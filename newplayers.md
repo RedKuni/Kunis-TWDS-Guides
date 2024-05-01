@@ -10,7 +10,11 @@ nav_order: 2
   }
 
   ul > li::before {
-    content: none;
+    content: none !important;
+  }
+
+  li {
+    margin: 0 !important;
   }
 </style>
 
