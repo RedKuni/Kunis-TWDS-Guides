@@ -8,6 +8,10 @@ nav_order: 2
   .card-title {
     margin-top: 0;
   }
+
+  .ul {
+    content: none;
+  }
 </style>
 
 <h2>New Players' Must Know</h2>
