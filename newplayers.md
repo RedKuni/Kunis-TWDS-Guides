@@ -9,7 +9,7 @@ nav_order: 2
     margin-top: 0;
   }
 
-  .ul {
+  ul > li::before {
     content: none;
   }
 </style>
