@@ -9,6 +9,10 @@ nav_order: 2
     margin-top: 0;
   }
 
+  .card-footer figure {
+    margin: 0 !important;
+  }
+
   ul > li::before {
     content: none !important;
   }
