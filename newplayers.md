@@ -9,6 +9,11 @@ nav_order: 2
     margin-top: 0;
   }
 
+  .card-header {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
   .card-footer figure {
     margin: 0 !important;
   }
@@ -27,13 +32,15 @@ nav_order: 2
 </style>
 
 <h2>New Players' Must Know</h2>
-<p>Key points:</p>
+<p>Below we list a couple of things that you should always keep 
+in mind to prosper in the game:</p>
 <div class="d-grid gap-3">
   <div class="card">
     <div class="card-header">Team Play</div>
     <div class="card-body">
       <p class="card-text sumup">
-        Join a clan right away. Don't fear changing it later for a more active or more fitting for you.
+        Join a clan right away. Don't fear changing it later for a more active or more fitting for you.<br>
+        Ideally, after the Season 1, there should be only one or two strong clans per region/server.
       </p>
       <div class="accordion">
         <div class="accordion-item">
