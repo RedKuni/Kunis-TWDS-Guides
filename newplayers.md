@@ -13,6 +13,10 @@ nav_order: 2
     margin: 0 !important;
   }
 
+  ul {
+    padding-left: 0 !important;
+  }
+
   ul > li::before {
     content: none !important;
   }
