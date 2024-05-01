@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <div>
-    <h3>Translate the website:</h3>
+    <h2>Translate the website:</h2>
     <div class="google-translate-link"></div>
     <i>Google Translate may not translate it to the actual name of it in your language.</i>
 </div>
@@ -16,7 +16,7 @@ permalink: /
     <p>These Tips and Guides are aimed at being easy on new players and for leaders to use it to help their people.</p>
     <p>Please, be aware that some name of the game's feature may change</p>
     <h2>New Players</h2>
-    <p>If you are a New Player, please, read first the <a href="newplayers.html">New Players' Must Know" page.</a></p>
+    <p>If you are a New Player, please, read first the <a href="newplayers.html">New Player's page</a> with key points you may not know.</p>
 </div>
 
 <script>
