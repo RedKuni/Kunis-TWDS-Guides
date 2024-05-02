@@ -22,7 +22,7 @@ nav_order: 2
     padding-left: 0 !important;
   }
 
-  ul > li::before {
+  ul>li::before {
     content: none !important;
   }
 
@@ -32,8 +32,8 @@ nav_order: 2
 </style>
 
 <h2>New Players' Must Know</h2>
-<p>Below we list a couple of things that you should always keep 
-in mind to prosper in the game:</p>
+<p>Below we list a couple of things that you should always keep
+  in mind to prosper in the game:</p>
 <div class="d-grid gap-3">
   <div class="card">
     <div class="card-header">Team Play</div>
@@ -115,7 +115,8 @@ in mind to prosper in the game:</p>
             </li>
             <li class="list-group-item">
               <span style="color: #0D0;">Green Line</span>:<br>
-              At the bottom-left of the Event Card you can see the date and time of the event, as well as how long until it starts.
+              At the bottom-left of the Event Card you can see the date and time of the event, as well as how long until
+              it starts.
               Note: Pay attention to the "UTC" or "Local" before the event's date.
             </li>
             <li class="list-group-item">
@@ -154,7 +155,7 @@ in mind to prosper in the game:</p>
       </div>
     </div>
   </div>
-  
+
   <div class="card">
     <div class="card-header">Clan Technology Donations</div>
     <div class="card-body">
@@ -171,11 +172,64 @@ in mind to prosper in the game:</p>
           </div>
           <div class="accordion-collapse details collapse" id="communidation">
             <div class="accordion-body">
-              Clan Technologies benefits all the its members, you included. The donations is nothing 
-              special, just some veggies or lumbers. You can donate using rubies, but it's not necessary. 
-              Just donate to wherever is marked with a stared thumbs up. When the technology node reaches 
-              the required resource amount, an Rank 4 (R4) from you clan can start the research and mark 
+              Clan Technologies benefits all the its members, you included. The donations is nothing
+              special, just some veggies or lumbers. You can donate using rubies, but it's not necessary.
+              Just donate to wherever is marked with a stared thumbs up. When the technology node reaches
+              the required resource amount, an Rank 4 (R4) from you clan can start the research and mark
               another technology node.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-footer">
+      <figure class="figure row">
+        <img src="assets/clan-research-screen.jpeg" class="figure-img col"
+          alt="In the overview Clan screen, there is an 'Event' tab.">
+        <figcaption class="figure-caption col">
+          <ul class="list-group">
+            <li class="list-group-item">
+              The Clan Technology can be found in the second tab (a flask icon) of the Clan's page.
+            </li>
+          </ul>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">Pick a Fighter Type & Hoard Flasks</div>
+    <div class="card-body">
+      <p class="card-text sumup">
+        Choose between Melee, Sharpshooter or Cavalry and focus on it.<br>
+        Also, get every single flask you see (Lone Trader, Clan Store, ELITE Shop, etc.), use your Rubies if needed.
+      </p>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <button class="accordion-button collapsed p-2" type="button" data-bs-toggle="collapse"
+              data-bs-target="#communidation" aria-expanded="false" aria-controls="communidation">
+              More details
+            </button>
+          </div>
+          <div class="accordion-collapse details collapse" id="communidation">
+            <div class="accordion-body">
+              <p>
+                In the beginning you will have to invest on all the 3 fighter types.
+                However, starting from Library Lv 15 you will unlock specific type
+                researches, which in the end of its technology tree you unlock
+                Tier 10 (T10) fighter.
+              </p>
+              <p>
+                But, to unlock a single type of T10 you need <b>23979 flasks</b> in total,
+                to research 100% of a fighter type.<br>
+                That's why you must get every single flask that you can.
+              </p>
+              <p>
+                So, instead of trying to be a jack-of-all-trades and waste time and
+                resources, <b>you should focus in only one fighter type</b> and stick
+                with it until you have at least one T10 unlocked.
+              </p>
             </div>
           </div>
         </div>
